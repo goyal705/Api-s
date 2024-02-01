@@ -1,0 +1,157 @@
+/* .maindiv{
+    display: flex;
+    flex-direction: row;
+} */
+.header {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    min-width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid blanchedalmond;
+}
+
+.header h1 {
+    margin-left: 100px;
+}
+
+.apikey {
+    padding: 10px;
+    margin-right: 100px;
+    border: 2px solid blanchedalmond;
+    min-width: 100px;
+    color: white;
+    background-color: seagreen;
+}
+
+.apikey:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.requestcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    text-align: center;
+    justify-content: center;
+}
+
+.row {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 48px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    line-height: 65px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.row:hover {
+    color: white;
+    background-color: blueviolet;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    min-width: 400px;
+    width: auto;
+    height: auto;
+    background-color: rgb(59, 59, 59);
+}
+
+.code-editor-header {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+}
+
+.language {
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.languageselect {
+    height: 20px;
+
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.languageselect select {
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.code-editor-box {
+    background-color: rgb(59, 59, 59);
+    width: auto;
+    height: auto;
+    font-size: large;
+    color: white;
+    overflow: auto;
+}
+
+.apiidrequest {
+    display: none;
+    background-color: beige;
+    color: white;
+    float: right;
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.apiidrequest input {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.apiidrequest button {
+    width: 180px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: seagreen;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.apiidrequest button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
